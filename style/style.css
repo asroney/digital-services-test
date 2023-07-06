@@ -4,7 +4,7 @@
 }
 .logo-photo{
     width: 150px;
-    padding-left: 20px;
+    padding-left: 100px;
 }
 .menu-container{
     background-color: black;
@@ -49,10 +49,13 @@
     justify-content: space-around;
     align-items: center;
     height: 90vh;
+    padding-left: 150px;
+    margin-right: 0px;
+    margin-left: 0px;
 }
 
 .bn-image{
-    width: 400px;
+    width: 700px;
     
 }
 
@@ -75,4 +78,66 @@
     margin-top: 30px;
     background-color: black;
     color:white;
+}
+
+
+.about-containner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90vh;
+    background-image: url("/image/bg1.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 150px;
+    padding-right: 120px;
+    color: white;
+    
+
+}
+.about-image{
+    width: 400px;
+}
+
+.services-containner{
+    display: flex;
+    justify-content: space-around;
+    height: 90vh;
+    padding-top: 40px;
+    padding-right: 120px;
+    padding-left: 150px;
+}
+
+.box{
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    padding: 5px;
+    box-shadow: 5px 5px 10px;
+
+}
+.box-icon{
+    width: 200px;
+}
+.box-btn{
+    padding: 10px 20px;
+    background-color: black;
+    color:white;
+    margin-top: 20px;
+    box-shadow: none;
+}
+.box-title{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.box-description{
+    font-size: 15px;
+}
+.service-text{
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    padding-top: 20px;
+    margin-top: 20px;
 }
