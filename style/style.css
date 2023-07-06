@@ -19,7 +19,7 @@
 
 .menu{
     display: flex;
-    padding-left: 300px;
+    padding-left: 20px;
 }
 .item{
     font-size: 20px;
@@ -39,4 +39,40 @@
     font-size:15px ;
     background-color: aliceblue;
     align-items: center;
+    cursor: pointer;
+}
+
+
+
+.banner-containner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90vh;
+}
+
+.bn-image{
+    width: 400px;
+    
+}
+
+.texth1{
+    font-size: 60px ;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+.texth5{
+    font-size: 30px;
+    padding-top: 20px;
+}
+.p1{
+    font-size: 20px;
+
+}
+.btn2{
+    margin-top: 30px;
+    background-color: black;
+    color:white;
 }
