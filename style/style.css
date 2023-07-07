@@ -141,3 +141,33 @@
     padding-top: 20px;
     margin-top: 20px;
 }
+
+.footer-containner{
+    display: flex;
+    color: white;
+    background-color: black;
+    height: 40vh;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-image{
+    width: 150px;
+}
+.footer-logo{
+    width: 25%;
+}
+
+
+.copyright{
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+    
+    .social-icon{
+        list-style: none;
+    }
+    .quick-links{
+        list-style: none;
+    }
